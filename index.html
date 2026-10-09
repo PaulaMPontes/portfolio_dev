@@ -1,0 +1,276 @@
+<!doctype html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Paula Pontes</title>
+  <meta name="description" content="Portfólio de Paula Pontes, desenvolvedora. Projetos e contato." />
+<meta property="og:description" content="Portfólio de Paula Pontes, desenvolvedora. Projetos e contato." />
+<meta property="og:image" content="https://paulampontes.github.io/assets/og-image.png" />
+<meta property="og:type" content="website" /> 
+<meta property="og:title" content="Paula Pontes" />
+<meta property="og:url" content="https://paulampontes.github.io/portfolio_dev.git" />
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+  <link rel="icon" href="assets/favicon.ico" sizes="48x48" />
+  <link rel="icon" href="assets/favicon-32.png" type="image/png" sizes="32x32" />
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400;500&family=Inter:wght@400;500;600&family=Space+Grotesk:wght@400;500;600&display=swap" />
+  <link rel="stylesheet" href="css/style.css" />
+  <script src="js/main.js" defer></script>
+</head>
+
+<body>
+
+
+  <header class="header">
+    <a href="#inicio" class="wordmark" aria-label="Paula Pontes — início" data-i18n-attr="aria-label:homeLabel">PAULA
+      PONTES</a>
+
+    <nav class="nav" id="nav">
+      <a href="#sobre"><span>01</span> <span data-i18n="nav.0">sobre</span></a>
+      <a href="#projetos"><span>02</span> <span data-i18n="nav.1">projetos</span></a>
+      <a href="#contato"><span>03</span> <span data-i18n="nav.2">contato</span></a>
+    </nav>
+
+    <div class="header-actions">
+      <button type="button" class="language-toggle" id="language-toggle" aria-label="Change language to English">
+        <span class="is-active" data-lang="pt">PT</span>
+        <i>/</i>
+        <span data-lang="en">EN</span>
+      </button>
+      <button type="button" class="menu-button" id="menu-button" aria-expanded="false" aria-controls="nav"
+        data-i18n="menu">menu</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio">
+      <video autoplay muted loop playsinline aria-hidden="true">
+        <!-- <source src="assets/video/hero-animation.mp4" type='video/mp4; codecs="hvc1"' /> -->
+        <source src="assets/video/hero-animation-h264.mp4" type="video/mp4" />
+      </video>
+      <div class="hero-overlay"></div>
+      <div class="hero-grain"></div>
+
+      <div class="hero-content">
+        <p class="role" data-i18n="role">PAULA PONTES — DESENVOLVEDORA WEB</p>
+        <h1>
+          <span data-i18n="heroFirst">Código que</span><br />
+          <span data-i18n="heroSecond">faz</span> <em data-i18n="heroAccent">acontecer.</em>
+        </h1>
+        <div class="hero-bottom">
+          <p data-i18n="heroDescription">Transformo ideias em experiências digitais funcionais, expressivas e feitas
+            para pessoas.</p>
+          <a href="#projetos" aria-label="Ver projetos" data-i18n-attr="aria-label:viewProjects">
+            <svg aria-hidden="true" viewBox="0 0 24 24">
+              <path d="M5 12h14M13 6l6 6-6 6" />
+            </svg>
+          </a>
+        </div>
+      </div>
+      <span class="hero-file">
+        <span data-i18n="imageCredit">IMAGENS POR</span>
+        <a href="https://www.magnific.com/br" rel="noopener noreferrer">MAGNIFIC</a>
+      </span>
+    </section>
+
+    <section class="about" id="sobre">
+      <p class="section-kicker" data-i18n="aboutLabel">01 / SOBRE</p>
+      <div class="about-grid">
+        <div class="about-intro">
+          <h2>
+            <span data-i18n="aboutTitle">Aprendendo, construindo</span><br />
+            <span data-i18n="aboutTitleSecond">e entendendo como tudo funciona.</span>
+          </h2>
+          <div class="skills">
+            <span data-i18n="skills.0">FRONTEND</span>
+            <span data-i18n="skills.1">BACKEND</span>
+            <span data-i18n="skills.2">APIS</span>
+            <span data-i18n="skills.3">INTERFACES WEB</span>
+          </div>
+        </div>
+        <div class="about-text">
+          <p data-i18n="aboutParagraphs.0">Minha trajetória na tecnologia começou pela curiosidade de entender o que
+            existe por trás das telas. Desde então, venho transformando estudo em projetos e projetos em aprendizado.
+          </p>
+          <p data-i18n="aboutParagraphs.1">Tenho interesse tanto pela lógica que sustenta uma aplicação quanto pelos
+            detalhes que tornam seu uso mais claro e agradável.</p>
+          <div class="education">
+            <span data-i18n="education">FORMAÇÃO</span>
+            <div class="education-list">
+              <div class="education-item">
+                <strong data-i18n="studies.0.title">Engenharia de Software</strong>
+                <p data-i18n="studies.0.institution">Pontifícia Universidade Católica (PUCPR) — 2025 / --</p>
+              </div>
+              <div class="education-item">
+                <strong data-i18n="studies.1.title">Técnica em Desenvolvimento de Sistemas</strong>
+                <p data-i18n="studies.1.institution">ETEC — 2023/2024</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="projects" id="projetos">
+      <div class="section-heading">
+        <p class="section-kicker" data-i18n="projectsLabel">02 / PROJETOS</p>
+        <h2 data-i18n="projectsTitle">Alguns projetos que já construí.</h2>
+      </div>
+
+      <div class="project-grid">
+        <article class="project">
+          <a href="https://github.com/Isabelle-12/Printly" target="_blank" rel="noopener noreferrer"
+            data-project-link="0" aria-label="Abrir Printly">
+            <div class="project-cover project-cover--one">
+              <img src="assets/printly-capa-card.webp"
+                alt="Printly: ilustração de pedidos de impressão ligados a quem oferece impressão" loading="lazy" />
+              <span>01</span>
+            </div>
+            <div class="project-info">
+              <div>
+                <h3 data-i18n="projects.0.title">Printly</h3>
+                <p data-i18n="projects.0.description">Conecta quem precisa imprimir a quem oferece serviços de
+                  impressão.</p>
+              </div>
+              <span class="project-arrow"><svg aria-hidden="true" viewBox="0 0 24 24">
+                  <path d="M5 12h14M13 6l6 6-6 6" />
+                </svg></span>
+            </div>
+          </a>
+        </article>
+        <article class="project">
+          <a href="https://github.com/PaulaMPontes/EsperaZero_desktop_projeto" target="_blank" rel="noopener noreferrer"
+            data-project-link="1" aria-label="Abrir EsperaZero">
+            <div class="project-cover project-cover--two">
+              <img src="assets/esperazero-capa-card.webp" alt="Logo do EsperaZero: cruz verde com um cronômetro"
+                loading="lazy" />
+              <span>02</span>
+            </div>
+            <div class="project-info">
+              <div>
+                <h3 data-i18n="projects.1.title">EsperaZero</h3>
+                <p data-i18n="projects.1.description">Sistema de gerenciamento de filas de espera para atendimento em
+                  UPA, desenvolvido como projeto de TCC.</p>
+              </div>
+              <span class="project-arrow"><svg aria-hidden="true" viewBox="0 0 24 24">
+                  <path d="M5 12h14M13 6l6 6-6 6" />
+                </svg></span>
+            </div>
+          </a>
+        </article>
+
+        <!-- <article class="project">
+  <a href="LINK-DO-PROJETO" target="_blank" rel="noopener noreferrer" data-project-link="2" aria-label="Abrir Experimento digital">
+    <div class="project-cover project-cover--three">
+      <img src="assets/images/NOME-DA-IMAGEM.png" alt="DESCRIÇÃO DA IMAGEM" loading="lazy" />
+      <span>03</span>
+    </div>
+    <div class="project-info">
+      <div>
+        <h3 data-i18n="projects.2.title">Experimento digital</h3>
+        <p data-i18n="projects.2.description">Frontend e interação</p>
+      </div>
+      <span class="project-arrow"><svg aria-hidden="true" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6" /></svg></span>
+    </div>
+  </a>
+</article> -->
+      </div>
+    </section>
+
+    <section class="contact-intro">
+      <div class="contact-intro-header">
+        <p class="section-kicker" data-i18n="contactLabel">03 / CONTATO</p>
+        <p data-i18n="openToWork">ABERTA A NOVOS PROJETOS E OPORTUNIDADES</p>
+      </div>
+      <div class="contact-intro-content">
+        <h2>
+          <span data-i18n="contactTitle">Tem uma ideia?</span><br />
+          <span data-i18n="contactTitleSecond">Vamos conversar.</span>
+        </h2>
+        <div class="contact-note">
+          <div class="availability">
+            <span></span>
+            <span data-i18n="available">DISPONÍVEL PARA CONVERSAR</span>
+          </div>
+          <p data-i18n="contactDescription">Seja para construir um projeto, colaborar em uma ideia ou simplesmente
+            trocar experiências sobre tecnologia.</p>
+          <a href="">
+            <span data-i18n="startConversation">começar uma conversa</span>
+            <svg aria-hidden="true" viewBox="0 0 24 24">
+              <path d="M5 12h14M13 6l6 6-6 6" />
+            </svg>
+          </a>
+          <div class="contact-code" role="group"
+            aria-label="Status online, tempo de resposta de aproximadamente 24 horas"
+            data-i18n-attr="aria-label:statusLabel">
+            <div class="contact-code-header">
+              <span>GET /api/availability</span>
+              <strong>200 OK</strong>
+            </div>
+            <pre><code>{
+  "status": 200,
+  "state": "online",
+  "response_time": "24h"
+}</code></pre>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contato">
+
+      <div class="socials">
+        <p data-i18n="elsewhere">onde me encontrar</p>
+        <a href="https://www.linkedin.com/in/paula-pontes05/">
+          <span class="social-icon">
+            <svg aria-hidden="true" viewBox="0 0 24 24">
+              <path d="M7 9v8M7 6.5v.01M11 17v-4.5a3.5 3.5 0 0 1 7 0V17M11 9v8" />
+              <rect x="3" y="3" width="18" height="18" rx="2" />
+            </svg>
+          </span>
+          <span>linkedin</span>
+          <svg aria-hidden="true" viewBox="0 0 24 24">
+            <path d="M5 12h14M13 6l6 6-6 6" />
+          </svg>
+        </a>
+        <a href="https://github.com/PaulaMPontes">
+          <span class="social-icon">
+            <svg aria-hidden="true" viewBox="0 0 24 24">
+              <path
+                d="M9 18c-4 .9-4-2-5-2.5M14.5 21v-3.5c0-1 .1-1.4-.5-2 3-.3 6-1.5 6-6a4.7 4.7 0 0 0-1.2-3.2A4.4 4.4 0 0 0 18.7 3S17.7 2.7 15 4.2a11 11 0 0 0-6 0C6.3 2.7 5.3 3 5.3 3a4.4 4.4 0 0 0-.1 3.3A4.7 4.7 0 0 0 4 9.5c0 4.5 3 5.7 6 6-.6.6-.6 1.2-.5 2V21" />
+            </svg>
+          </span>
+          <span>github</span>
+          <svg aria-hidden="true" viewBox="0 0 24 24">
+            <path d="M5 12h14M13 6l6 6-6 6" />
+          </svg>
+        </a>
+        <a href="mailto:paulacmp07@gmail.com">
+          <span class="social-icon">
+            <svg aria-hidden="true" viewBox="0 0 24 24">
+              <rect x="3" y="5" width="18" height="14" rx="1" />
+              <path d="m4 7 8 6 8-6" />
+            </svg>
+          </span>
+          <span data-i18n="email">paulacmp07@gmail.com</span>
+          <svg aria-hidden="true" viewBox="0 0 24 24">
+            <path d="M5 12h14M13 6l6 6-6 6" />
+          </svg>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <strong>PAULA PONTES</strong>
+    <p data-i18n="rights">2026 TODOS OS DIREITOS RESERVADOS</p>
+    <a href="#inicio" data-i18n="backToTop">voltar ao topo ↑</a>
+  </footer>
+</body>
+
+</html>
