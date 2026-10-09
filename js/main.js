@@ -14,7 +14,7 @@
       heroDescription:
         "Transformo ideias em experiências digitais funcionais, expressivas e feitas para pessoas.",
       viewProjects: "Ver projetos",
-      imageCredit: "IMAGENS POR",
+      imageCredit: "VIDEO POR",
       aboutLabel: "01 / SOBRE",
       aboutTitle: "Aprendendo, construindo",
       aboutTitleSecond: "e entendendo como tudo funciona.",
@@ -75,7 +75,7 @@
       heroDescription:
         "I turn ideas into functional, expressive digital experiences made for people.",
       viewProjects: "View projects",
-      imageCredit: "IMAGES BY",
+      imageCredit: "VIDEO BY",
       aboutLabel: "01 / ABOUT",
       aboutTitle: "Learning, building",
       aboutTitleSecond: "and understanding how everything works.",
