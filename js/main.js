@@ -58,7 +58,7 @@
       invalidEmail: "E-mail inválido. Confira e tente de novo.",
       rateLimited: "Muitas tentativas. Tente novamente mais tarde.",
       sendError: "Não consegui enviar agora. Tente novamente em instantes.",
-      elsewhere: "outros lugares",
+      elsewhere: "onde me encontrar",
       email: "e-mail",
       rights: "2026 TODOS OS DIREITOS RESERVADOS",
       backToTop: "voltar ao topo ↑"
@@ -119,7 +119,7 @@
       invalidEmail: "Invalid email. Please check it and try again.",
       rateLimited: "Too many attempts. Please try again later.",
       sendError: "I couldn't send it right now. Please try again shortly.",
-      elsewhere: "elsewhere",
+      elsewhere: "where find me",
       email: "email",
       rights: "2026 ALL RIGHTS RESERVED",
       backToTop: "back to top ↑"
